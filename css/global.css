@@ -1,0 +1,100 @@
+@import url("https://px.animaapp.com/646dec9847ca7469936ca745.646dec9a7eb5d4d57b0b60b4.DMUsHgV.hcp.png");
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Radomir Tinkov - Gilroy-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroy-Medium-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Bold-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+body{
+  background-image: url("../img/background-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+.span0 {
+  color: var(--white);
+}
+
+.span1 {
+  color: var(--spring-green);
+}
+.main-body {
+  padding: 5% 0rem 0 0;
+}
+.label-p {
+  font-family: var(--font-family-gilroy-medium-☞);
+  font-weight: 400;
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 1rem;
+  position: relative;
+  font-size: 0.7rem;
+}
+.label-h{
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+@media (min-width: 680px) {
+  /* Add your styles here for larger screens */
+  .label-p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .label-h{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* Add your styles here for larger screens */
+  .label-p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  .label-h{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 2400px) {
+  /* Add your styles here for larger screens */
+  .label-p {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  .label-h{
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+}
+@media (min-width: 3500px) {
+  /* Add your styles here for larger screens */
+  .label-p {
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+  .label-h{
+    font-size: 6.5rem;
+    line-height: 7rem;
+  }
+}
+.align-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
