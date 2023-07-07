@@ -227,7 +227,7 @@
   }
 }
 .part1-card {
-  width: 30%;
+  width: 40%;
 }
 .vector-swap {
   width: 3%;
@@ -303,6 +303,16 @@
   /* Add your styles here for larger screens */
   .part3-img {
     height: 24rem;
+  }
+  .part1-card {
+    width: 30%;
+  }
+  .vector-swap {
+    width: 3%;
+  }
+  .part1-card-group {
+    margin: 5%;
+    gap: 3%;
   }
 }
 
